@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eagleciam.android10.UNALupita.data">
+
+  <application android:allowBackup="true" />
+</manifest>

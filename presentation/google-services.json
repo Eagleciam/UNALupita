@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019628746391",
+    "firebase_url": "https://unalupita-68b82.firebaseio.com",
+    "project_id": "unalupita-68b82",
+    "storage_bucket": "unalupita-68b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019628746391:android:3a0955aa23d8ad95",
+        "android_client_info": {
+          "package_name": "com.eagleciam.android10.UNALupita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019628746391-pn0cfbgei6lkf6fv1fkshrb9qbl1kc96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eagleciam.android10.UNALupita",
+            "certificate_hash": "3a5551ca623ce5e57ab2eacc392151204563b577"
+          }
+        },
+        {
+          "client_id": "1019628746391-gm6sqjp4tl0j8rfcs4636507e5q5vrbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKtbfrDiP8ys_8Vsx8QYYV9GdKW4PoKtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019628746391-gm6sqjp4tl0j8rfcs4636507e5q5vrbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
