@@ -81,6 +81,9 @@ dependencies {
 
   //Development
   compile developmentDependencies.leakCanary
+
+  //Firebase
+  compile 'com.google.firebase:firebase-database:11.0.4'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -23,11 +23,16 @@ allprojects {
     }
   }
   ext {
+
     androidApplicationId = 'com.eagleciam.android10.UNALupita'
     androidVersionCode = 1
     androidVersionName = "1.0"
     testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
     testApplicationId = 'com.eagleciam.android10.UNALupita.test'
+    androidCompileSdkVersion = 26
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 26
+    androidBuildToolsVersion = "26.0.1"
   }
 }
 
