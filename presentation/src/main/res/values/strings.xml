@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Android Clean Architecture</string>
-  <string name="url">http://www.android10.org/</string>
+  <string name="url">Bienvenido a UNALupita, a continuación encontrará los términos y condiciones de uso de la
+    aplicación, para continuar deberá leer y aceptar lo que aquí está contenido/</string>
+
 
   <string name="activity_title_user_list">Users List</string>
   <string name="activity_title_user_details">User Details</string>
 
-  <string name="btn_text_load_data">Load Sample Data</string>
+  <string name="btn_text_load_data">Aceptar términos y condiciones</string>
   <string name="btn_text_retry">Retry</string>
 
   <string name="view_text_email">Email:</string>

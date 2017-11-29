@@ -18,6 +18,7 @@ package com.eagleciam.android10.UNALupita.presentation.navigation;
 import android.content.Context;
 import android.content.Intent;
 
+import com.eagleciam.android10.UNALupita.presentation.view.activity.UserAuthenticationActivity;
 import com.eagleciam.android10.UNALupita.presentation.view.activity.UserDetailsActivity;
 import com.eagleciam.android10.UNALupita.presentation.view.activity.UserListActivity;
 
@@ -52,6 +53,13 @@ public class Navigator {
    *
    * @param context A Context needed to open the destiny activity.
    */
+  public void navigateToUserAuthentication(Context context){
+    if (context != null) {
+      Intent intentToLaunch = UserAuthenticationActivity.getCallingIntent(context);
+      context.startActivity(intentToLaunch);
+    }
+  }
+
   public void navigateToUserDetails(Context context, int userId) {
     if (context != null) {
       Intent intentToLaunch = UserDetailsActivity.getCallingIntent(context, userId);
