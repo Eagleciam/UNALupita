@@ -26,6 +26,8 @@ public class MainActivity extends BaseActivity {
    */
   @OnClick(R.id.btn_LoadData)
   void navigateToUserList() {
+    //ir a autenticacion
+    //this.navigator.navigateToUserAuthentication(this);
     this.navigator.navigateToUserList(this);
   }
 }
